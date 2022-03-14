@@ -9,4 +9,5 @@ def solution(arr,tar):
 arr=[10,14,19,26,27,31,33,35,42,44]
 tar=33
 print(solution(arr,tar))
+print(solution(tar,arr))
 #this code doesn't work properly tho....!
