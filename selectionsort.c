@@ -1,12 +1,30 @@
 #include<stdio.h>
 #include<conio.h>
 int main(){
-  int arr[]={45,74,87,1,24,44,78};
-  int j,i,num;
-  for(i=0;i>len;i++){
-    for(j=0;j>len;j++){
-      num[j]=arr[]
-      }
-  }
+int a =[0,5,4,1,9,6];
+int min;
+int i,j,num;
+int len=sizeof(arr)/sizeof(arr[]);
+for( j=0;j<len;j++){
+    min=a[j];
+    for( i=j;i<len;i++){
+        
+        if(min>a[i]){
+            num=min;
+            min=a[i];
+            a[i]=num;
+            
+        }
+        
+        
+    }     
+    a[j]=min;
+ 
+            
+        
+}
+for(i=0;i<len;i++){
+        printf("%d",a[i]);
+}
 }
 //the code contains error
