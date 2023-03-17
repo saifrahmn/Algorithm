@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int main(){
     int n,x,y,j=0,v=0;
@@ -25,5 +25,16 @@ int main(){
         for(int i=0;i<(sizeof(arr)/sizeof(arr[0]));i++){
             cout << arr[i];
         }
+    }
+    
+}
+*/
+#include<iostream>
+using namespace std;
+int main(){
+    int n,x,y;
+    int t=x+y;
+    if(t==0||t>x&&t>y){
+        cout << "-1";
     }
 }
