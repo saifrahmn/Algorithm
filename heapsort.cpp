@@ -1,12 +1,16 @@
-#include<std/bitsc++.h>
+#include<bits/stdc++.h>
 #include<iostream>
 //finding the heap
-int heapify(arr[]){
+int heapify(int[] arr){
+    int top;
+    for(int i=0;i<ele;i++){
+        if(arr[])
+    }
     
 }
 
-int[] sort(int[] arr){
-    int heap[]=heapify(arr[]);
+int sort(int[] arr,ele){
+    int heap[]=heapify(arr,ele);
 }
 //main function
 int main(){
@@ -17,5 +21,5 @@ int main(){
     for(int i=0;i<ele;i++){
         std::cin>>ele;
     }
-    sort(arr);
+    std::sort(arr,ele);
 }

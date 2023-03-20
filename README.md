@@ -1,2 +1,2 @@
 # Algorithm
-these are all the algorithm of data structure I made in JavaScript for practice
+##### These are some Algorithm I write for practice in my college days
