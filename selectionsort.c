@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<conio.h>
+
 int main(){
-int a =[0,5,4,1,9,6];
+int a[] ={0,5,4,1,9,6};
 int min;
 int i,j,num;
-int len=sizeof(arr)/sizeof(arr[]);
+int len=sizeof(a)/sizeof(a[0]);
 for( j=0;j<len;j++){
     min=a[j];
     for( i=j;i<len;i++){
