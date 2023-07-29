@@ -64,7 +64,7 @@ int main()
 {
     int a[] = {5, 4, 3, 6, 2, 8};
     int start = 1;
-    int end = 8;
+    int end = 9;
     int len=sizeof(a)/sizeof(a[0]);
     cout << missingint(a, len) << endl;
 }
